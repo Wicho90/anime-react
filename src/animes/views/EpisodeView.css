@@ -1,0 +1,16 @@
+.columns {
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 595px */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 48px 0px 48px;
+    flex: 1 0 0px;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 48;
+    border-radius: 0px 0px 0px 0px;
+}

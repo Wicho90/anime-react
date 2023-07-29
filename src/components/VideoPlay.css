@@ -1,0 +1,29 @@
+.wrap {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex: 1 0 0px;
+  width: 1px;
+  height: min-content; /* 595px */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 24px 24px 24px;
+  overflow: hidden;
+  position: relative;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 24;
+  border-radius: 0px 0px 0px 0px;
+}
+
+.video {
+  
+  width: 942px;
+  height: 530px;
+
+  max-width: 942px;
+  min-width: 390;
+  max-height: 530px;
+  min-height: 230;
+}
